@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:textSize="12pt"
+            android:id="@+id/menuTitle1"
+            android:textColor="@color/listtitle"
+            android:text="제목1"
+            android:paddingBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="8pt"
+            android:textColor="@color/black"
+            android:id="@+id/menuTitle2"
+            android:text="제목2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/icon3"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:backgroundTint="@android:color/transparent"
+            android:src="@drawable/icon3test"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/icon4"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:backgroundTint="@android:color/transparent"
+            android:src="@drawable/icon4test">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/icon5"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:backgroundTint="@android:color/transparent"
+            android:src="@drawable/icon5test">
+        </ImageButton>
+        </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

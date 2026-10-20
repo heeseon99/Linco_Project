@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--list view의 아이템을 표시하는 레이아웃-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/clickTest">
+
+    <LinearLayout
+        android:id="@+id/test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_border"
+        android:padding="10dp"
+        android:layout_margin="5dp">
+        <LinearLayout
+            android:layout_width="65dp"
+            android:layout_height="65dp">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:id="@+id/main_img"
+                android:src="@drawable/product_test"
+                android:scaleType="fitCenter"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:text="내용1"
+                android:textStyle="bold"
+                android:textSize="9pt"
+                android:layout_marginRight="8dp"
+                android:id="@+id/main_content1"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="내용2"
+                android:textSize="6pt"
+                android:layout_marginRight="8dp"
+                android:maxLines="1"
+                android:id="@+id/main_content2"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:text="내용3"
+                android:singleLine="true"
+                android:maxLines="3"
+                android:textSize="6pt"
+                android:id="@+id/main_content3"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

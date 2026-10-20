@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--상세 정보를 표시하는 layout-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="360dp"
+    android:layout_height="380dp"
+    android:layout_gravity="center">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="350dp"
+        android:layout_height="370dp"
+        android:background="@drawable/round_border"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:padding="5dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/detail_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/round_border"
+                    android:backgroundTint="@color/icon_box"
+                    android:paddingLeft="9dp"
+                    android:paddingTop="3dp"
+                    android:paddingRight="9dp"
+                    android:paddingBottom="3dp"
+                    android:text="단체/기념일/분류"
+                    android:textColor="@color/white"
+                    android:textSize="8pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/detail_content1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@color/white"
+                    android:maxLines="1"
+                    android:paddingTop="3dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="3dp"
+                    android:singleLine="true"
+                    android:text="제목"
+                    android:textColor="@color/black"
+                    android:textSize="7pt" />
+
+                <TextView
+                    android:id="@+id/detail_text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/round_border"
+                    android:backgroundTint="@color/icon_box"
+                    android:paddingLeft="9dp"
+                    android:paddingTop="3dp"
+                    android:paddingRight="9dp"
+                    android:paddingBottom="3dp"
+                    android:text="소개"
+                    android:textColor="@color/white"
+                    android:textSize="8pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/detail_content2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginLeft="15dp"
+                    android:linksClickable="true"
+                    android:background="@color/white"
+                    android:maxLines="3"
+                    android:paddingTop="3dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="3dp"
+                    android:text="소개"
+                    android:textColor="@color/black"
+                    android:textSize="7pt"
+                    android:autoLink="web" />
+
+                <TextView
+                    android:id="@+id/detail_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/round_border"
+                    android:backgroundTint="@color/icon_box"
+                    android:paddingLeft="9dp"
+                    android:paddingTop="3dp"
+                    android:paddingRight="9dp"
+                    android:paddingBottom="3dp"
+                    android:text="창립일/기념일/url"
+                    android:textColor="@color/white"
+                    android:textSize="8pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/detail_content3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@color/white"
+                    android:maxLines="5"
+                    android:paddingTop="3dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="3dp"
+                    android:text="창립일/기념일/url"
+                    android:textColor="@color/black"
+                    android:textColorLink="#000000"
+                    android:textSize="7pt" />
+            </LinearLayout>
+        </ScrollView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/scrollview">
+
+            <Button
+                android:id="@+id/closeBtn"
+                android:layout_width="65dp"
+                android:layout_height="35dp"
+                android:background="@drawable/round_border"
+                android:text="확인"
+                android:textColor="@color/black"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints"></Button>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

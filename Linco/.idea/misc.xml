@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/KBSC_Pprojcet/KBSC_eco/app/src/main/res/layout/activity_custom_deetail.xml" value="0.22" />
+        <entry key="..\:/KBSC_Pprojcet/KBSC_eco/app/src/main/res/layout/activity_custom_list.xml" value="0.3333333333333333" />
+        <entry key="..\:/KBSC_Pprojcet/KBSC_eco/app/src/main/res/layout/activity_eco_menu.xml" value="0.1" />
+        <entry key="..\:/KBSC_Pprojcet/KBSC_eco/app/src/main/res/layout/activity_list_view.xml" value="0.1" />
+        <entry key="..\:/KBSC_Pprojcet/KBSC_eco/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/KBSC_Pprojcet/KBSC_eco/app/src/main/res/layout/activity_pra_list.xml" value="0.1" />
+        <entry key="..\:/KBSC_Pprojcet/KBSC_eco/app/src/main/res/layout/activity_pratice.xml" value="0.3333333333333333" />
+        <entry key="..\:/KBSC_Pprojcet/new/KBSC_eco (1)/app/src/main/res/layout/activity_custom_deetail.xml" value="0.1" />
+        <entry key="..\:/KBSC_Pprojcet/new/KBSC_eco (1)/app/src/main/res/layout/activity_custom_list.xml" value="0.14895833333333333" />
+        <entry key="..\:/KBSC_Pprojcet/new/KBSC_eco (1)/app/src/main/res/layout/activity_detail_dialog.xml" value="0.1" />
+        <entry key="..\:/KBSC_Pprojcet/new/KBSC_eco (1)/app/src/main/res/layout/activity_eco_menu.xml" value="0.1" />
+        <entry key="..\:/KBSC_Pprojcet/new/KBSC_eco (1)/app/src/main/res/layout/activity_listview.xml" value="0.1" />
+        <entry key="..\:/KBSC_Pprojcet/new/KBSC_eco (1)/app/src/main/res/layout/activity_listview_item.xml" value="0.1" />
+        <entry key="..\:/KBSC_Pprojcet/new/KBSC_eco (1)/app/src/main/res/layout/activity_main.xml" value="0.14895833333333333" />
+        <entry key="..\:/KBSC_Pprojcet/new/KBSC_eco (1)/app/src/main/res/layout/activity_pra_list.xml" value="0.1" />
+        <entry key="..\:/KBSC_Pprojcet/new/KBSC_eco (1)/app/src/main/res/layout/activity_pratice.xml" value="0.1" />
+        <entry key="..\:/KBSC_Pprojcet/new/KBSC_eco (1)/app/src/main/res/layout/activity_splash.xml" value="0.11594202898550725" />
+        <entry key="..\:/KBSC_Pprojcet/new/KBSC_eco/app/src/main/res/drawable/round_border.xml" value="0.1465" />
+        <entry key="..\:/KBSC_Pprojcet/new/KBSC_eco/app/src/main/res/layout/activity_custom_deetail.xml" value="0.16666666666666666" />
+        <entry key="..\:/KBSC_Pprojcet/new/KBSC_eco/app/src/main/res/layout/activity_custom_list.xml" value="0.11865942028985507" />
+        <entry key="..\:/KBSC_Pprojcet/new/KBSC_eco/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/KBSC_Pprojcet/new/KBSC_eco/app/src/main/res/layout/activity_splash.xml" value="0.16666666666666666" />
+        <entry key="..\:/KBSC_Project/kbscThird/KBSC_eco/app/src/main/res/layout/activity_custom_deetail.xml" value="0.4370471014492754" />
+        <entry key="..\:/KBSC_Project/kbscThird/KBSC_eco/app/src/main/res/layout/activity_custom_list.xml" value="0.4370471014492754" />
+        <entry key="..\:/KBSC_Project/kbscThird/KBSC_eco/app/src/main/res/layout/activity_eco_menu.xml" value="0.4370471014492754" />
+        <entry key="..\:/KBSC_Project/kbscThird/KBSC_eco/app/src/main/res/layout/activity_pra_list.xml" value="0.4370471014492754" />
+        <entry key="..\:/KBSC_Project/kbscThird/KBSC_eco/app/src/main/res/layout/activity_splash.xml" value="0.4370471014492754" />
+        <entry key="..\:/KBSC_Project/layout/KBSC_eco (1)/app/src/main/res/drawable/ic_test_background.xml" value="0.316" />
+        <entry key="..\:/KBSC_Project/layout/KBSC_eco (1)/app/src/main/res/drawable/round_border.xml" value="0.1985" />
+        <entry key="..\:/KBSC_Project/layout/KBSC_eco (1)/app/src/main/res/layout/activity_custom_deetail.xml" value="0.588021778584392" />
+        <entry key="..\:/KBSC_Project/layout/KBSC_eco (1)/app/src/main/res/layout/activity_custom_list.xml" value="0.3582427536231884" />
+        <entry key="..\:/KBSC_Project/layout/KBSC_eco (1)/app/src/main/res/layout/activity_eco_menu.xml" value="0.3582427536231884" />
+        <entry key="..\:/KBSC_Project/layout/KBSC_eco (1)/app/src/main/res/layout/activity_main.xml" value="0.3582427536231884" />
+        <entry key="..\:/KBSC_Project/layout/KBSC_eco (1)/app/src/main/res/layout/activity_pra_list.xml" value="0.3582427536231884" />
+        <entry key="..\:/KBSC_Project/layout/KBSC_eco (1)/app/src/main/res/layout/activity_pratice.xml" value="0.3582427536231884" />
+        <entry key="..\:/KBSC_Project/layout/KBSC_eco (1)/app/src/main/res/layout/activity_splash.xml" value="0.6" />
+        <entry key="..\:/KBSC_Project/project/KBSC_eco (1)/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1985" />
+        <entry key="..\:/KBSC_Project/project/KBSC_eco (1)/app/src/main/res/drawable/ic_test_background.xml" value="0.1985" />
+        <entry key="..\:/KBSC_Project/project/KBSC_eco (1)/app/src/main/res/drawable/round_border.xml" value="0.1985" />
+        <entry key="..\:/KBSC_Project/project/KBSC_eco (1)/app/src/main/res/layout/activity_detail_dialog.xml" value="0.4547563805104408" />
+        <entry key="..\:/KBSC_Project/project/KBSC_eco (1)/app/src/main/res/layout/activity_eco_menu.xml" value="0.2695035460992908" />
+        <entry key="..\:/KBSC_Project/project/KBSC_eco (1)/app/src/main/res/layout/activity_listview.xml" value="0.2695035460992908" />
+        <entry key="..\:/KBSC_Project/project/KBSC_eco (1)/app/src/main/res/layout/activity_listview_item.xml" value="0.4466666666666667" />
+        <entry key="..\:/KBSC_Project/project/KBSC_eco (1)/app/src/main/res/layout/activity_main.xml" value="0.40625" />
+        <entry key="..\:/KBSC_Project/project/KBSC_eco (1)/app/src/main/res/layout/activity_splash.xml" value="0.683944374209861" />
+        <entry key="..\:/KBSC_eco/app/src/main/res/drawable/round_border.xml" value="0.1055" />
+        <entry key="..\:/KBSC_eco/app/src/main/res/layout/activity_custom_deetail.xml" value="0.22" />
+        <entry key="..\:/KBSC_eco/app/src/main/res/layout/activity_custom_list.xml" value="0.22" />
+        <entry key="..\:/KBSC_eco/app/src/main/res/layout/activity_eco_menu.xml" value="0.1" />
+        <entry key="..\:/KBSC_eco/app/src/main/res/layout/activity_list_view.xml" value="0.1" />
+        <entry key="..\:/KBSC_eco/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/KBSC_eco/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/kbscSceond/KBSC_eco/app/src/main/res/layout/activity_custom_list.xml" value="0.41354166666666664" />
+        <entry key="..\:/kbscSceond/KBSC_eco/app/src/main/res/layout/activity_pra_list.xml" value="0.41354166666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
